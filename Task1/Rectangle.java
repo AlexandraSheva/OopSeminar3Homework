@@ -18,12 +18,12 @@ public class Rectangle implements Style, Show, Parameters, Drawing, Calculating 
   }
 
  
-  public void setHeight (double height) {
+  public void setHeight (int height) {
     this.height = height;
   }
 
   
-  public void setWidth(double width) {
+  public void setWidth(int width) {
     this.width = width;  
   }
 
